@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin:0rem;
+}
+
+:root{
+    --primary-color:#34D399;
+    --dark:#374151;
+    --off-white:#F3F4F6;
+    --btn-color:#047857;
+
+    
+
+}
+.container{
+    padding:0rem 1rem;
+}
+
+hr{
+    margin:2rem 0rem ;
+}
+
+.container-center{
+     max-width: 600px;
+     margin: auto;
+}
+
+.link{
+    text-decoration: none;
+    padding:0.5rem 1rem;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border:1px solid var(--primary-color);
+}
+
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding:0rem 0.5rem;
+}
+
+
+
+
+.navigation{
+    background-color:var(--primary-color);
+    color: white;
+    padding:1rem;
+    
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    color: var(--dark);
+    font-size:medium; 
+    
+}
+.navigation .nav-pills{
+    text-align: right;
+
+}
+
+.navigation .link{
+    background-color:var(--primary-color);
+    border: none;
+    color: var(--dark);
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.4s;
+}
+
+.navigation .link:hover {
+    background-color:var(--btn-color);
+    color: white;
+    
+}
+
+.navigation .link-active {
+    background-color:var(--btn-color);
+    color: white;
+
+}
+
+.link-projects {
+    background-color:#FCD34D ;
+    border: none;
+    color:var(--dark);
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+
+}
+
+.link-projects:hover{
+    opacity: 1;
+}
+
+.hero{
+    padding: 2rem;
+    background-color: var(--dark);
+}
+
+.hero .hero-img{
+    padding-top: 6rem ;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    padding-top:1rem;
+    color: var(--off-white) ;
+    text-align: center;
+    font-size: small;
+  
+}
+
+
+.hero .hero-heading .heading-inverted{
+   color: var(--primary-color);
+   font-size:xx-large;
+   
+}
+
+.section{
+    padding:2rem;
+}
+
+
+
+.section h1{
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size:large ;
+    color: var(--dark);
+}
+
+.footer ul{
+    padding-inline-start: 0rem;
+}
