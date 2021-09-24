@@ -62,8 +62,6 @@ hr{
     background-color:var(--primary-color);
     color: white;
     padding:0.5rem;
-   
-    
 }
 
 .navigation .nav-brand{
@@ -118,7 +116,7 @@ hr{
 }
 
 .hero{
-    padding: 2rem;
+    padding:0.5rem;
     background-color: var(--dark);
     margin: auto;
 }
@@ -126,13 +124,13 @@ hr{
 .hero .hero-img{
     padding-top: 2rem ;
     max-width: 300px;
-    display: block;
+    display:block;
     margin:auto;
+   
    
 }
 
 .hero .hero-heading{
-    padding-top:1rem;
     color: var(--off-white) ;
     text-align: center;
     font-size: small;
@@ -140,11 +138,8 @@ hr{
 }
 
 
-.hero .hero-heading .heading-inverted{
-   color: var(--primary-color);
-   font-size:xx-large;
-   
-}
+
+
 
 .section{
     padding:2rem;
@@ -245,10 +240,11 @@ hr{
 
 h2{
     position: relative;
-    font-size:7vw;
+    font-size:5vw;
     color:var(--dark);
     -webkit-text-stroke:0.3vw #2a3444;
     text-transform:uppercase;
+    margin-left:15rem;
 
 }
 
