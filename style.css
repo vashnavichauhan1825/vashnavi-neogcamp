@@ -61,14 +61,15 @@ hr{
 .navigation{
     background-color:var(--primary-color);
     color: white;
-    padding:1rem;
+    padding:0.5rem;
+   
     
 }
 
 .navigation .nav-brand{
     font-weight: bold;
     color: var(--dark);
-    font-size:medium; 
+    font-size:xx-large;     
     
 }
 .navigation .nav-pills{
