@@ -124,13 +124,14 @@ hr{
 .hero .hero-img{
     padding-top: 2rem ;
     max-width: 300px;
-    display:block;
+    display: block;
     margin:auto;
    
    
 }
 
 .hero .hero-heading{
+    padding-top:4rem;
     color: var(--off-white) ;
     text-align: center;
     font-size: small;
@@ -138,8 +139,11 @@ hr{
 }
 
 
-
-
+.hero .hero-heading .heading-inverted{
+   color: var(--primary-color);
+   font-size:xx-large;
+   
+}
 
 .section{
     padding:2rem;
