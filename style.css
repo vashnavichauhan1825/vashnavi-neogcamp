@@ -141,8 +141,7 @@ hr{
 
 .hero .hero-heading .heading-inverted{
    color: var(--primary-color);
-   font-size:xx-large;
-   
+   font-size:xx-large; 
 }
 
 .section{
