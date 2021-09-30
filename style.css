@@ -55,7 +55,10 @@ hr{
     padding:0rem 0.5rem;
 }
 
-
+.backtotop{
+    text-align: right;
+    text-decoration: green;
+}
 
 
 .navigation{
